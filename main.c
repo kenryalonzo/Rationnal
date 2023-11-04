@@ -12,8 +12,8 @@ int main(int argc, char* argv[]) {
     print(r2);
     
     printf("After normalisation, this is the new value of r1 and r2\n");
-    normaliser(r1);
-    normaliser(r2);
+    r1 = normaliser(r1);
+    r2 = normaliser(r2);
     print(r1);
     print(r2);
 
