@@ -22,6 +22,7 @@ rationnal sub(rationnal rt1, rationnal rt2);
 rationnal mult(rationnal rt1, rationnal rt2);
 rationnal divis(rationnal rt1, rationnal rt2);
 void readT(Trationnal t, int n);
+float convert(rationnal r);
 rationnal maxT(Trationnal t, int n);
 
 #endif

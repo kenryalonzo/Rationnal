@@ -104,13 +104,21 @@ void readT(Trationnal t, int n) {
     
 }
 
+float convert(rationnal r) {
+    return (float)r.num/r.denom;
+}
+
 // une fontion qui renvoie le plus grand rationnel de la collection
 
-rationnal maxT(Trationnal t, int n) {
+// rationnal maxT(Trationnal t, int n) {
 
-    for (int i = 0; i < n; i++) {
+//     int max = 0;
+//     for (int i = 1; i < n; i++) {
         
-        
-    }
+//         if (convert(t[i] > t[max]))
+//             max = i;
+//     }
+
+//     return t[max];
     
-}
+// }
